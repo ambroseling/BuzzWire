@@ -10,5 +10,5 @@ The aim of the game is to trace a wire around a metal maze to the other side in 
 
 We used ARM assembly and C to write interrupts (Generic Interrupt Controller & IRQ handler) for the KEYs and ARM A9 Private Timer. We also used an Analog-To-Digital Converter on the DE1-SoC board to read voltage changes from the circuit board. 
 
-##Circit logic
+## Circit logic
 We used an AND gate chip 7S0008 (input: 5v and floating wire(the handheld wire) / output: 5v if no touch, 0v if wire is touched). The wire is attached to GND so when the wire is touched the circuit is grounded, which reads a 0v.
